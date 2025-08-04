@@ -53,7 +53,7 @@ urllib3
 uvicorn
 uvicorn[standard]
 python-multipart
-
+setuptools
 aiohttp
 # Utilities
 python-jose
