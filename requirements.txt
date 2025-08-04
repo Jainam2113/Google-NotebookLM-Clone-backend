@@ -40,7 +40,6 @@ PyMuPDF
 pyparsing
 pypdfium2
 python-dotenv
-redis
 requests
 rsa
 sniffio
