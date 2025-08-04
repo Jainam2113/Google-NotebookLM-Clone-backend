@@ -10,7 +10,7 @@ from datetime import datetime, timedelta
 
 import numpy as np
 import faiss
-import aioredis
+from redis.asyncio import Redis
 from concurrent.futures import ThreadPoolExecutor
 
 from app.models.schemas import (
