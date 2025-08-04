@@ -28,7 +28,7 @@ class Settings:
     # Security
     SECRET_KEY: str = os.getenv("SECRET_KEY", "your-secret-key")
     ALLOWED_HOSTS: List[str] = ["*"]
-    CORS_ORIGINS: List[str] = [os.getenv("CORS_ORIGINS", "http://localhost:5173")]
+    CORS_ORIGINS: List[str] = ["*"]  # ← ALLOW ALL ORIGINS
 
     # Google Gemini API - Try both variable names
     GEMINI_API_KEY: str = os.getenv("GOOGLE_API_KEY") or os.getenv("GEMINI_API_KEY") or ""
